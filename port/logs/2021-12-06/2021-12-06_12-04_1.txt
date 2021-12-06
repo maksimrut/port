@@ -1,0 +1,109 @@
+2021-12-06 12:04:50 [main] [readPortData] [39] INFO  rutkouski.port.reader.impl.PortDataReaderImpl - Ships data was successfully read from file: shipData/data.txt
+2021-12-06 12:04:50 [main] [parseShips] [23] INFO  rutkouski.port.parser.impl.ShipParserImpl - Parsing was successful
+2021-12-06 12:04:50 [pool-2-thread-1] [run] [43] INFO  com.rutkouski.port.entity.Ship - Ship 1 started
+2021-12-06 12:04:50 [pool-2-thread-3] [run] [43] INFO  com.rutkouski.port.entity.Ship - Ship 3 started
+2021-12-06 12:04:50 [pool-2-thread-7] [run] [43] INFO  com.rutkouski.port.entity.Ship - Ship 7 started
+2021-12-06 12:04:50 [pool-2-thread-10] [run] [43] INFO  com.rutkouski.port.entity.Ship - Ship 10 started
+2021-12-06 12:04:50 [pool-2-thread-6] [run] [43] INFO  com.rutkouski.port.entity.Ship - Ship 6 started
+2021-12-06 12:04:50 [pool-2-thread-4] [run] [43] INFO  com.rutkouski.port.entity.Ship - Ship 4 started
+2021-12-06 12:04:50 [pool-2-thread-8] [run] [43] INFO  com.rutkouski.port.entity.Ship - Ship 8 started
+2021-12-06 12:04:50 [pool-2-thread-5] [run] [43] INFO  com.rutkouski.port.entity.Ship - Ship 5 started
+2021-12-06 12:04:50 [pool-2-thread-2] [run] [43] INFO  com.rutkouski.port.entity.Ship - Ship 2 started
+2021-12-06 12:04:50 [pool-2-thread-9] [run] [43] INFO  com.rutkouski.port.entity.Ship - Ship 9 started
+2021-12-06 12:04:50 [pool-2-thread-5] [obtainPier] [74] INFO  com.rutkouski.port.entity.Port - Start pier obtaining
+2021-12-06 12:04:50 [pool-2-thread-1] [obtainPier] [74] INFO  com.rutkouski.port.entity.Port - Start pier obtaining
+2021-12-06 12:04:50 [pool-2-thread-9] [obtainPier] [74] INFO  com.rutkouski.port.entity.Port - Start pier obtaining
+2021-12-06 12:04:50 [pool-2-thread-5] [obtainPier] [89] INFO  com.rutkouski.port.entity.Port - Obtained pier 1
+2021-12-06 12:04:50 [pool-2-thread-1] [obtainPier] [89] INFO  com.rutkouski.port.entity.Port - Obtained pier 2
+2021-12-06 12:04:50 [pool-2-thread-9] [obtainPier] [89] INFO  com.rutkouski.port.entity.Port - Obtained pier 3
+2021-12-06 12:04:50 [pool-2-thread-9] [operateShip] [24] INFO  com.rutkouski.port.entity.Pier - Ship [shipId=9] operation on the pier [pierId=3] has started
+2021-12-06 12:04:50 [pool-2-thread-8] [obtainPier] [74] INFO  com.rutkouski.port.entity.Port - Start pier obtaining
+2021-12-06 12:04:50 [pool-2-thread-2] [obtainPier] [74] INFO  com.rutkouski.port.entity.Port - Start pier obtaining
+2021-12-06 12:04:50 [pool-2-thread-5] [operateShip] [24] INFO  com.rutkouski.port.entity.Pier - Ship [shipId=5] operation on the pier [pierId=1] has started
+2021-12-06 12:04:50 [pool-2-thread-1] [operateShip] [24] INFO  com.rutkouski.port.entity.Pier - Ship [shipId=1] operation on the pier [pierId=2] has started
+2021-12-06 12:04:50 [pool-2-thread-4] [obtainPier] [74] INFO  com.rutkouski.port.entity.Port - Start pier obtaining
+2021-12-06 12:04:50 [pool-2-thread-3] [obtainPier] [74] INFO  com.rutkouski.port.entity.Port - Start pier obtaining
+2021-12-06 12:04:50 [pool-2-thread-6] [obtainPier] [74] INFO  com.rutkouski.port.entity.Port - Start pier obtaining
+2021-12-06 12:04:50 [pool-2-thread-10] [obtainPier] [74] INFO  com.rutkouski.port.entity.Port - Start pier obtaining
+2021-12-06 12:04:50 [pool-2-thread-7] [obtainPier] [74] INFO  com.rutkouski.port.entity.Port - Start pier obtaining
+2021-12-06 12:04:50 [pool-2-thread-9] [loadContainer] [113] INFO  com.rutkouski.port.entity.Port - Start container loading process
+2021-12-06 12:04:50 [pool-2-thread-9] [loadContainer] [126] INFO  com.rutkouski.port.entity.Port - currentContainerAmount = 2
+2021-12-06 12:04:50 [pool-2-thread-9] [loadContainer] [127] INFO  com.rutkouski.port.entity.Port - Container was successfully loaded
+2021-12-06 12:04:50 [pool-2-thread-9] [operateShip] [37] INFO  com.rutkouski.port.entity.Pier - Ship [shipId=9] operation on the pier [pierId=3] is completed successfully
+2021-12-06 12:04:50 [pool-2-thread-9] [releasePier] [103] INFO  com.rutkouski.port.entity.Port - Pier 3 is released
+2021-12-06 12:04:50 [pool-2-thread-9] [run] [50] INFO  com.rutkouski.port.entity.Ship - Ship (9) process completed successfully
+2021-12-06 12:04:50 [pool-2-thread-8] [obtainPier] [81] INFO  com.rutkouski.port.entity.Port - Waiting for free pier
+2021-12-06 12:04:50 [pool-2-thread-8] [obtainPier] [89] INFO  com.rutkouski.port.entity.Port - Obtained pier 3
+2021-12-06 12:04:50 [pool-2-thread-8] [operateShip] [24] INFO  com.rutkouski.port.entity.Pier - Ship [shipId=8] operation on the pier [pierId=3] has started
+2021-12-06 12:04:50 [pool-2-thread-5] [loadContainer] [113] INFO  com.rutkouski.port.entity.Port - Start container loading process
+2021-12-06 12:04:50 [pool-2-thread-5] [loadContainer] [126] INFO  com.rutkouski.port.entity.Port - currentContainerAmount = 1
+2021-12-06 12:04:50 [pool-2-thread-5] [loadContainer] [127] INFO  com.rutkouski.port.entity.Port - Container was successfully loaded
+2021-12-06 12:04:50 [pool-2-thread-1] [loadContainer] [113] INFO  com.rutkouski.port.entity.Port - Start container loading process
+2021-12-06 12:04:50 [pool-2-thread-5] [operateShip] [37] INFO  com.rutkouski.port.entity.Pier - Ship [shipId=5] operation on the pier [pierId=1] is completed successfully
+2021-12-06 12:04:50 [pool-2-thread-1] [loadContainer] [126] INFO  com.rutkouski.port.entity.Port - currentContainerAmount = 0
+2021-12-06 12:04:50 [pool-2-thread-5] [releasePier] [103] INFO  com.rutkouski.port.entity.Port - Pier 1 is released
+2021-12-06 12:04:50 [pool-2-thread-1] [loadContainer] [127] INFO  com.rutkouski.port.entity.Port - Container was successfully loaded
+2021-12-06 12:04:50 [pool-2-thread-2] [obtainPier] [81] INFO  com.rutkouski.port.entity.Port - Waiting for free pier
+2021-12-06 12:04:50 [pool-2-thread-5] [run] [50] INFO  com.rutkouski.port.entity.Ship - Ship (5) process completed successfully
+2021-12-06 12:04:50 [pool-2-thread-1] [operateShip] [37] INFO  com.rutkouski.port.entity.Pier - Ship [shipId=1] operation on the pier [pierId=2] is completed successfully
+2021-12-06 12:04:50 [pool-2-thread-2] [obtainPier] [89] INFO  com.rutkouski.port.entity.Port - Obtained pier 1
+2021-12-06 12:04:50 [pool-2-thread-2] [operateShip] [24] INFO  com.rutkouski.port.entity.Pier - Ship [shipId=2] operation on the pier [pierId=1] has started
+2021-12-06 12:04:50 [pool-2-thread-1] [releasePier] [103] INFO  com.rutkouski.port.entity.Port - Pier 2 is released
+2021-12-06 12:04:50 [pool-2-thread-1] [run] [50] INFO  com.rutkouski.port.entity.Ship - Ship (1) process completed successfully
+2021-12-06 12:04:50 [pool-2-thread-3] [obtainPier] [81] INFO  com.rutkouski.port.entity.Port - Waiting for free pier
+2021-12-06 12:04:50 [pool-2-thread-3] [obtainPier] [89] INFO  com.rutkouski.port.entity.Port - Obtained pier 2
+2021-12-06 12:04:50 [pool-2-thread-3] [operateShip] [24] INFO  com.rutkouski.port.entity.Pier - Ship [shipId=3] operation on the pier [pierId=2] has started
+2021-12-06 12:04:50 [pool-2-thread-8] [unloadContainer] [136] INFO  com.rutkouski.port.entity.Port - Start container unload
+2021-12-06 12:04:50 [pool-2-thread-8] [unloadContainer] [148] INFO  com.rutkouski.port.entity.Port - currentContainerAmount = 1
+2021-12-06 12:04:50 [pool-2-thread-8] [unloadContainer] [149] INFO  com.rutkouski.port.entity.Port - Container was successfully unloaded
+2021-12-06 12:04:50 [pool-2-thread-8] [operateShip] [37] INFO  com.rutkouski.port.entity.Pier - Ship [shipId=8] operation on the pier [pierId=3] is completed successfully
+2021-12-06 12:04:50 [pool-2-thread-8] [releasePier] [103] INFO  com.rutkouski.port.entity.Port - Pier 3 is released
+2021-12-06 12:04:50 [pool-2-thread-8] [run] [50] INFO  com.rutkouski.port.entity.Ship - Ship (8) process completed successfully
+2021-12-06 12:04:50 [pool-2-thread-6] [obtainPier] [81] INFO  com.rutkouski.port.entity.Port - Waiting for free pier
+2021-12-06 12:04:50 [pool-2-thread-6] [obtainPier] [89] INFO  com.rutkouski.port.entity.Port - Obtained pier 3
+2021-12-06 12:04:50 [pool-2-thread-6] [operateShip] [24] INFO  com.rutkouski.port.entity.Pier - Ship [shipId=6] operation on the pier [pierId=3] has started
+2021-12-06 12:04:51 [pool-2-thread-3] [unloadContainer] [136] INFO  com.rutkouski.port.entity.Port - Start container unload
+2021-12-06 12:04:51 [pool-2-thread-3] [unloadContainer] [148] INFO  com.rutkouski.port.entity.Port - currentContainerAmount = 2
+2021-12-06 12:04:51 [pool-2-thread-3] [unloadContainer] [149] INFO  com.rutkouski.port.entity.Port - Container was successfully unloaded
+2021-12-06 12:04:51 [pool-2-thread-3] [operateShip] [37] INFO  com.rutkouski.port.entity.Pier - Ship [shipId=3] operation on the pier [pierId=2] is completed successfully
+2021-12-06 12:04:51 [pool-2-thread-2] [unloadContainer] [136] INFO  com.rutkouski.port.entity.Port - Start container unload
+2021-12-06 12:04:51 [pool-2-thread-3] [releasePier] [103] INFO  com.rutkouski.port.entity.Port - Pier 2 is released
+2021-12-06 12:04:51 [pool-2-thread-2] [unloadContainer] [148] INFO  com.rutkouski.port.entity.Port - currentContainerAmount = 3
+2021-12-06 12:04:51 [pool-2-thread-3] [run] [50] INFO  com.rutkouski.port.entity.Ship - Ship (3) process completed successfully
+2021-12-06 12:04:51 [pool-2-thread-2] [unloadContainer] [149] INFO  com.rutkouski.port.entity.Port - Container was successfully unloaded
+2021-12-06 12:04:51 [pool-2-thread-10] [obtainPier] [81] INFO  com.rutkouski.port.entity.Port - Waiting for free pier
+2021-12-06 12:04:51 [pool-2-thread-2] [operateShip] [37] INFO  com.rutkouski.port.entity.Pier - Ship [shipId=2] operation on the pier [pierId=1] is completed successfully
+2021-12-06 12:04:51 [pool-2-thread-10] [obtainPier] [89] INFO  com.rutkouski.port.entity.Port - Obtained pier 2
+2021-12-06 12:04:51 [pool-2-thread-10] [operateShip] [24] INFO  com.rutkouski.port.entity.Pier - Ship [shipId=10] operation on the pier [pierId=2] has started
+2021-12-06 12:04:51 [pool-2-thread-2] [releasePier] [103] INFO  com.rutkouski.port.entity.Port - Pier 1 is released
+2021-12-06 12:04:51 [pool-2-thread-2] [run] [50] INFO  com.rutkouski.port.entity.Ship - Ship (2) process completed successfully
+2021-12-06 12:04:51 [pool-2-thread-4] [obtainPier] [81] INFO  com.rutkouski.port.entity.Port - Waiting for free pier
+2021-12-06 12:04:51 [pool-2-thread-4] [obtainPier] [89] INFO  com.rutkouski.port.entity.Port - Obtained pier 1
+2021-12-06 12:04:51 [pool-2-thread-4] [operateShip] [24] INFO  com.rutkouski.port.entity.Pier - Ship [shipId=4] operation on the pier [pierId=1] has started
+2021-12-06 12:04:51 [pool-2-thread-6] [loadContainer] [113] INFO  com.rutkouski.port.entity.Port - Start container loading process
+2021-12-06 12:04:51 [pool-2-thread-6] [loadContainer] [126] INFO  com.rutkouski.port.entity.Port - currentContainerAmount = 2
+2021-12-06 12:04:51 [pool-2-thread-6] [loadContainer] [127] INFO  com.rutkouski.port.entity.Port - Container was successfully loaded
+2021-12-06 12:04:51 [pool-2-thread-6] [operateShip] [37] INFO  com.rutkouski.port.entity.Pier - Ship [shipId=6] operation on the pier [pierId=3] is completed successfully
+2021-12-06 12:04:51 [pool-2-thread-6] [releasePier] [103] INFO  com.rutkouski.port.entity.Port - Pier 3 is released
+2021-12-06 12:04:51 [pool-2-thread-6] [run] [50] INFO  com.rutkouski.port.entity.Ship - Ship (6) process completed successfully
+2021-12-06 12:04:51 [pool-2-thread-7] [obtainPier] [81] INFO  com.rutkouski.port.entity.Port - Waiting for free pier
+2021-12-06 12:04:51 [pool-2-thread-7] [obtainPier] [89] INFO  com.rutkouski.port.entity.Port - Obtained pier 3
+2021-12-06 12:04:51 [pool-2-thread-7] [operateShip] [24] INFO  com.rutkouski.port.entity.Pier - Ship [shipId=7] operation on the pier [pierId=3] has started
+2021-12-06 12:04:51 [pool-2-thread-4] [unloadContainer] [136] INFO  com.rutkouski.port.entity.Port - Start container unload
+2021-12-06 12:04:51 [pool-2-thread-4] [unloadContainer] [148] INFO  com.rutkouski.port.entity.Port - currentContainerAmount = 3
+2021-12-06 12:04:51 [pool-2-thread-4] [unloadContainer] [149] INFO  com.rutkouski.port.entity.Port - Container was successfully unloaded
+2021-12-06 12:04:51 [pool-2-thread-4] [operateShip] [37] INFO  com.rutkouski.port.entity.Pier - Ship [shipId=4] operation on the pier [pierId=1] is completed successfully
+2021-12-06 12:04:51 [pool-2-thread-4] [releasePier] [103] INFO  com.rutkouski.port.entity.Port - Pier 1 is released
+2021-12-06 12:04:51 [pool-2-thread-4] [run] [50] INFO  com.rutkouski.port.entity.Ship - Ship (4) process completed successfully
+2021-12-06 12:04:51 [pool-2-thread-10] [loadContainer] [113] INFO  com.rutkouski.port.entity.Port - Start container loading process
+2021-12-06 12:04:51 [pool-2-thread-10] [loadContainer] [126] INFO  com.rutkouski.port.entity.Port - currentContainerAmount = 2
+2021-12-06 12:04:51 [pool-2-thread-10] [loadContainer] [127] INFO  com.rutkouski.port.entity.Port - Container was successfully loaded
+2021-12-06 12:04:51 [pool-2-thread-10] [operateShip] [37] INFO  com.rutkouski.port.entity.Pier - Ship [shipId=10] operation on the pier [pierId=2] is completed successfully
+2021-12-06 12:04:51 [pool-2-thread-10] [releasePier] [103] INFO  com.rutkouski.port.entity.Port - Pier 2 is released
+2021-12-06 12:04:51 [pool-2-thread-10] [run] [50] INFO  com.rutkouski.port.entity.Ship - Ship (10) process completed successfully
+2021-12-06 12:04:51 [pool-2-thread-7] [unloadContainer] [136] INFO  com.rutkouski.port.entity.Port - Start container unload
+2021-12-06 12:04:51 [pool-2-thread-7] [unloadContainer] [148] INFO  com.rutkouski.port.entity.Port - currentContainerAmount = 3
+2021-12-06 12:04:51 [pool-2-thread-7] [unloadContainer] [149] INFO  com.rutkouski.port.entity.Port - Container was successfully unloaded
+2021-12-06 12:04:51 [pool-2-thread-7] [operateShip] [37] INFO  com.rutkouski.port.entity.Pier - Ship [shipId=7] operation on the pier [pierId=3] is completed successfully
+2021-12-06 12:04:51 [pool-2-thread-7] [releasePier] [103] INFO  com.rutkouski.port.entity.Port - Pier 3 is released
+2021-12-06 12:04:51 [pool-2-thread-7] [run] [50] INFO  com.rutkouski.port.entity.Ship - Ship (7) process completed successfully
